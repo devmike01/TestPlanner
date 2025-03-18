@@ -1,0 +1,22 @@
+{
+  "prompt": "Generate a structured test case table for user validation across multiple fields.",
+  "categories": [
+    {
+      "name": "Feature or Endpoint Name",
+      "subcategories": [
+        {
+          "name": "Field Name (e.g., Email, Password, Username)",
+          "fields": [
+            {
+              "field_name": "Field being tested",
+              "validity": "Valid/Invalid",
+              "input": "Sample test input",
+              "expected_output": "Expected system response",
+              "description": "Reason for test case"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
